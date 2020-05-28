@@ -1,0 +1,186 @@
+body {
+  background-image: url('IT.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+}
+
+#Alef IT Support Specialist in card {
+  background-color: white;
+  height: 350px;
+  width: 25%;
+  margin-top: 20pt;
+  float: right;
+}
+
+#list {
+  background-color: white;
+  height: 350px;
+  width: 25%;
+  margin-top: 20pt;
+  float: right;
+}
+
+#search-text {
+  float: top;
+  margin-left: 710pt;
+  width: 25%;
+}
+
+
+#map {
+  height: 360px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+
+#AlefPic {
+  padding: 5px 50px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+#AlefPic:hover {
+opacity: .9;
+}
+
+
+#cssmenu {
+  height: 160px;
+  display: block;
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  border-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul {
+  list-style: inside none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul > li {
+  list-style: inside none;
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul > li > a {
+  outline: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border-right: 1px solid #080808; */ /*to add borders*/
+  color: black;
+  padding: 12px 30px; /*location of the text*/
+}
+#cssmenu > ul > li > a:after {
+  content: "";
+  position: absolute;
+  border-right: 1px solid;
+  top: -1px;
+  bottom: -1px;
+  right: -2px;
+  z-index: 99;
+  border-color: transparent;
+}
+#cssmenu ul li.has-sub:hover > a:after {
+  top: 0;
+  bottom: 0;
+}
+#cssmenu > ul > li.has-sub > a:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 6px;
+  border: 5px solid transparent;
+  border-top: 5px solid #ffffff;
+}
+#cssmenu > ul > li.has-sub:hover > a:before {
+  top: 19px;
+}
+#cssmenu > ul > li.has-sub:hover > a {
+  padding-bottom: 14px;
+  z-index: 999;
+  border-color: #3f3f3f;
+}
+#cssmenu ul li.has-sub:hover > ul,
+#cssmenu ul li.has-sub:hover > div {
+  display: block;
+}
+#cssmenu > ul > li.has-sub > a:hover,
+#cssmenu > ul > li.has-sub:hover > a {
+  background: #3f3f3f;
+  border-color: #3f3f3f;
+}
+#cssmenu ul li > ul,
+#cssmenu ul li > div {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 38px;
+  background: #3f3f3f;
+  border-radius: 0 0 5px 5px;
+  z-index: 999;
+  padding: 10px 0;
+}
+#cssmenu ul li > ul {
+  width: 200px;
+}
+#cssmenu ul ul ul {
+  position: absolute;
+}
+#cssmenu ul ul li:hover > ul {
+  left: 100%;
+  top: -10px;
+  border-radius: 5px;
+}
+#cssmenu ul li > ul li {
+  display: block;
+  list-style: inside none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul li > ul li a {
+  outline: none;
+  display: block;
+  position: relative;
+  font: 10pt Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 8px 20px;
+}
+#cssmenu,
+#cssmenu ul ul > li:hover > a,
+#cssmenu ul ul li a:hover {
+  background: white;
+  background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+  background: -o-linear-gradient(top, transparent 0%, transparent 100%);
+  background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+  background: linear-gradient(top, transparent 0%, transparent 100%);
+}
+#cssmenu > ul > li > a:hover {
+  background: transparent;
+  color: #ff0000;
+}
+#cssmenu ul ul a:hover {
+  color: #ff0000;
+}
+#cssmenu > ul > li.has-sub > a:hover:before {
+  border-top: 5px solid #ff0000;
+}
